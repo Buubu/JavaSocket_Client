@@ -1,9 +1,11 @@
 package common;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
 
-public class DownloadFiles {
+public class DownloadFiles implements Serializable {
+	private static final long serialVersionUID = 1L;
 	private	ArrayList<String> names = new ArrayList<String>();
     private ArrayList<byte[]> bytes = new ArrayList<byte[]>();
     

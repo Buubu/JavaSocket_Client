@@ -1,6 +1,6 @@
 package common;
 
-import client.AcceptClientFromClient;
+import common.AcceptClientFromClient;
 import common.AcceptClient;
 import java.io.IOException;
 import java.net.*;
